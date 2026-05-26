@@ -46,7 +46,7 @@ resource "aws_security_group" "nikk_sg" {
 resource "aws_instance" "nikk_ec2_terraform" {
 
   ami           = "ami-024ebedf48d280810"
-  instance_type = "t2.micro"
+  instance_type = "t3.micro"
 
   key_name = "nikk-key"
 
